@@ -2,13 +2,25 @@ img {
 	display:block;
 	margin-left: auto;
 	margin-right:auto;
+	width: 269px;
+	height: 150px;
+	padding-top: 112px;
 }
 
-input {
+.search {
 	display:block;
 	margin-left: auto;
 	margin-right:auto;
-	border: 3px solid blue;
+	border: 2px solid blue;
 	width: 500px;
+	height: 27.5px;
+
+}
+
+.submit {
+	font-weight: bold;
+	float: center;
+	display:inline-block;
+	text-align: center;
 
 }
