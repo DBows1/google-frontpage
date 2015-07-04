@@ -1,26 +1,68 @@
-img {
+body {
+	font-family: Arial, sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000000;
+	opacity: 0.85;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: right;
+	display: block;
+	padding: 0 0 0 18px;
+}
+
+.google {
 	display:block;
 	margin-left: auto;
 	margin-right:auto;
 	width: 269px;
 	height: 150px;
-	padding-top: 112px;
+	padding-top: 100px;
+	padding-left: 355px;
+}
+
+.buttonHolder {
+	text-align: center;
 }
 
 .search {
 	display:block;
+
 	margin-left: auto;
 	margin-right:auto;
-	border: 2px solid blue;
-	width: 500px;
-	height: 27.5px;
+	margin-bottom:15px;
+
+	border: 1px transparent gray;
+	width: 600px;
+	height: 26.5px;
+
+	font-size: 1.25em;
 
 }
 
 .submit {
-	font-weight: bold;
-	float: center;
+	font-family: Arial, Sans-Serif;
 	display:inline-block;
 	text-align: center;
 
+	margin-right:10px;
+	margin-left: 10px;
+	height: 29px;
+	width: 120px;
+}
+
+#googlesearch {
+	height: 29px;
 }

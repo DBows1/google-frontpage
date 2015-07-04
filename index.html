@@ -5,16 +5,45 @@
 		<title>Google Frontpage</title>
 	</head>
 	<body>
-		<img src="http://fineprintnyc.com/images/blog/history-of-logos/google/google-logo.png">
-		<form>
-			<table>
-				<td>
-					<tr><input class="search" type="search"></tr>
-				</td>
-				<td>
-					<tr><input class="submit" type="submit" value= "Google Search"></tr>
-					<tr><input class="submit" type="submit" value= "I'm Feeling Lucky"></tr>
-				</td>
-		</form>
+		<!-- divs for the header and footer bars are useful to organize the links on each.
+		Making the container divs relative and whatever structure to hold the links absolute
+		is useful here-->
+		<div id="container">
+			<div id="topbar">
+				<!-- unordered lists work well for organizing the links. make sure to list them from right to left order. -->
+				<ul>
+					<li>
+						<a href="#">
+							<!-- border-radius: 100% makes complete circles -->
+							<img src="file:///C:\Sites\google-frontpage\images\blueperson.jpg"/>
+							<!-- To link to a local file, use the file:/// protocol -->
+						</a>
+					</li>
+					<li><div id="share">Share</div></li>
+					<li>
+						<a href="https://plus.google.com/u/0/notifications/all?hl=en">
+							<img src="file:///C:\Sites\google-frontpage\images\notification.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.google.com/intl/en/about/products/">
+							<img src="file:///C:\Sites\google-frontpage\images\apps.png">
+						</a>
+					</li>
+					<li><a href="https://images.google.com/">Images</a></li>
+					<li><a href="https://mail.google.com">Gmail</a></li>
+					<!-- Use the span title= tag to add hover-text -->
+					<li><span title="Looking for Google+? Click the Google Apps icon to the right.">Dylan</span></li>
+				</ul>
+			</div>
+			
+  			<div class="cf"></div>
+    			<div class="google-search">
+					<img class="google" src="http://fineprintnyc.com/images/blog/history-of-logos/google/google-logo.png">
+					<input class="search" type="search">
+				<div class="buttonHolder">
+					<input class="submit" id="googlesearch" type="submit" value= "Google Search">
+					<input class="submit" id="lucky" type="submit" value= "I'm Feeling Lucky">
+					</div>
 	</body>
 </html>
