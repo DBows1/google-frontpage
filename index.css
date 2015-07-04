@@ -2,7 +2,7 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-#topbar {
+a {
 	font-size: 0.85em;
 }
 #topbar a:link {
@@ -20,10 +20,16 @@ ul {
 	list-style-type: none;
 }
 
-li {
+#topbar li {
 	float: right;
 	display: block;
 	padding: 0 0 0 18px;
+}
+
+#dylan {
+	opacity: 0.50;
+	font-size: .85em;
+	margin-top: 2px;
 }
 
 .google {
@@ -56,16 +62,50 @@ li {
 }
 
 .submit {
-	font-family: Arial, Sans-Serif;
-	display:inline-block;
-	text-align: center;
 
-	margin-right:10px;
-	margin-left: 10px;
-	height: 29px;
-	width: 120px;
+	
+	font: bold 11px/27px Arial,sans-serif;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px;
+	padding: 3px 4px 3px 4px;
+	margin: 5px;
+	display: inline-block;
+	height: 35px;
 }
 
-#googlesearch {
-	height: 29px;
+#bottombar {
+	background-color: #f2f2f2;
+	border-top: 2px solid #e4e4e4;
+	height: 40px;
+	clear: both;
+	position: relative;
+	margin-top: 215px;
+}
+
+#bottombar ul {
+	margin-left: 27px;
+	margin-top: 5px
+}
+
+#bottombar a:link, #bottombar a:visited {
+	color: #666;
+}
+
+#bottomleftbar {
+	float: left;
+
+}
+
+#bottomrightbar {
+	margin-right: 27px;
+
+}
+
+#bottomleftbar a:link, #bottomrightbar a:link {
+	text-decoration: none;
+}
+
+#bottomleftbar a:hover, #bottomrightbar a:hover {
+	text-decoration: underline;
+	opacity: 0.85;
 }
