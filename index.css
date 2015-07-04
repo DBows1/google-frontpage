@@ -2,12 +2,15 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-a:link {
+#topbar {
+	font-size: 0.85em;
+}
+#topbar a:link {
 	text-decoration: none;
 	color: #000000;
 }
 
-a:hover {
+#topbar a:hover {
 	text-decoration: underline;
 	color: #000000;
 	opacity: 0.85;
@@ -29,8 +32,8 @@ li {
 	margin-right:auto;
 	width: 269px;
 	height: 150px;
-	padding-top: 100px;
-	padding-left: 355px;
+	padding-top: 150px;
+	padding-left: 305px;
 }
 
 .buttonHolder {
