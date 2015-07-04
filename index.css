@@ -98,7 +98,7 @@ ul {
 
 #bottomrightbar {
 	margin-right: 27px;
-
+	float:right;
 }
 
 #bottomleftbar a:link, #bottomrightbar a:link {
